@@ -29,7 +29,7 @@ export function QrScanned() {
                     classNames={styles.scan}
                 />
                 <div className={styles.link}>
-                    <a>{scan} https://github.com/Palma1511</a>
+                    <a>{scan}</a>
                 </div>
             </div>
 
