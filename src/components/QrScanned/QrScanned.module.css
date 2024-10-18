@@ -1,0 +1,38 @@
+.link {
+    display: flex;
+    position: absolute;
+    margin-top: 27rem;
+    font-size: 30px;
+    max-width: 50vw;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: rgba(30, 30, 30, 0.79);
+    border-radius: 20px;
+    border: 2px solid #cfcfcf;
+    box-shadow: 2px 3px 4px;
+    cursor: auto;
+    padding: 10px;
+    color: azure;
+}
+
+.component {
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    color: azure;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: translateX(100%);
+    animation: ani 1s forwards;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

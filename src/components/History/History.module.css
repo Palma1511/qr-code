@@ -1,0 +1,25 @@
+.container {
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin: 2rem 0;
+    height: 8vh;
+    text-align: right;
+    padding: 2rem;
+}
+
+.txt {
+    display: inline;
+    width: 50vw;
+    margin-right: 20rem;
+}
+
+.qr {
+    align-items: end;
+}
+
+.comp {
+    color: white;
+    text-align: center;
+}
